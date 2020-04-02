@@ -1,7 +1,7 @@
 import isYes from './isYes.js';
 
-const quizButton = document.getElementById("button");
-const result = document.getElementById("quizAnswers");
+const quizButton = document.getElementById('button');
+const result = document.getElementById('quizAnswers');
 
 function doQuizzings() {
     let rightAnswers = 0;
@@ -14,25 +14,25 @@ function doQuizzings() {
         return;
     }
 
-    const firstName = prompt("What is your First Name?");
+    const firstName = prompt('What is your First Name?');
     name = firstName;
 
-    const lastName = prompt("What is your Last name?");
+    const lastName = prompt('What is your Last name?');
     name = name + ' ' + lastName;
 
-    const dadsName = prompt("Is my dads name Steven?");
+    const dadsName = prompt('Is my dads name Steven?');
 
     if (isYes(dadsName) === false) {
         rightAnswers++;
     }
 
-    const limbs = prompt("Do I still have all of my limbs?");
+    const limbs = prompt('Do I still have all of my limbs?');
 
     if (isYes(limbs) === true) {
         rightAnswers++;
     }
 
-    const lacrosse = prompt("Did I play lacrosse?");
+    const lacrosse = prompt('Did I play lacrosse?');
 
     if (isYes(lacrosse) === false) {
         rightAnswers++;
