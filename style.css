@@ -4,6 +4,7 @@
     padding: 40px;
     border: 4px solid black;
     text-align: auto;
+    background-image: linear-gradient(crimson, yellow);
 }
 
 #walrus {
@@ -11,4 +12,12 @@
     height: 100px;
     align-items: auto;
     
+}
+
+#entire-page {
+    background-color: black;
+}
+
+h2 {
+    color: blue;
 }
